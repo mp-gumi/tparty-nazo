@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router";
 import styles from "./style.module.css";
-// import tparty1 from "./images/tparty_1_mini.png";
-// import tparty2 from "./images/tparty_2_mini.png";
-// import tparty3 from "./images/tparty_3_mini.png";
-// import tparty4 from "./images/tparty_4_mini.png";
-// import tparty5 from "./images/tparty_5_mini.png";
+import tparty1 from "./images/tparty_1_mini.png";
+import tparty2 from "./images/tparty_2_mini.png";
+import tparty3 from "./images/tparty_3_mini.png";
+import tparty4 from "./images/tparty_4_mini.png";
+import tparty5 from "./images/tparty_5_mini.png";
 import tparty7 from "./images/tparty_7.png";
 
 function Last(): JSX.Element {
@@ -37,6 +37,13 @@ function Last(): JSX.Element {
         <button className={styles.button} onClick={handleClick}>
           チェック！
         </button>
+      </div>
+      <div className={styles.imageFlex}>
+        <img alt="1" className={styles.pastImage} src={tparty1} />
+        <img alt="2" className={styles.pastImage} src={tparty2} />
+        <img alt="3" className={styles.pastImage} src={tparty3} />
+        <img alt="4" className={styles.pastImage} src={tparty4} />
+        <img alt="5" className={styles.pastImage} src={tparty5} />
       </div>
     </div>
   );

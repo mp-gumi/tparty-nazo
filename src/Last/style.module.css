@@ -32,3 +32,16 @@
   vertical-align: middle;
   margin: 45px 0;
 }
+
+.pastImage {
+  width: 256px;
+  height: 144px;
+  box-shadow: 3px 3px 5px #aaa;
+  margin: 30px 0;
+}
+
+.imageFlex {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
