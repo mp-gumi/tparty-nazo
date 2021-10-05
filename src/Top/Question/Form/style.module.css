@@ -1,0 +1,21 @@
+.input {
+  border-radius: 18px;
+  font-size: 30px;
+  text-align: center;
+  height: 30px;
+  width: 400px;
+}
+
+.button {
+  border-radius: 18px;
+  font-size: 20px;
+  height: 36px;
+  margin: 0 0 0 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 45px 0;
+}

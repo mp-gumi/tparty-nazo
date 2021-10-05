@@ -1,0 +1,40 @@
+.image {
+  width: 1000px;
+  box-shadow: 5px 5px 5px #777;
+  border-radius: 30px;
+}
+
+.flameWithPadding {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0 0;
+}
+
+.flameWithNoPadding {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flameWithPaddingBottom {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 100px;
+}
+
+.scrollBarLeft {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.scrollBarRight {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
