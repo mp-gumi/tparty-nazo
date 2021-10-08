@@ -1,0 +1,42 @@
+.background {
+  align-items: center;
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  width: 100%;
+}
+
+.style {
+  background: #fff;
+  box-shadow: 10px 10px 10px #777;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  height: 80%;
+  justify-content: space-between;
+  max-width: 1300px;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  box-shadow: 3px 3px 10px #aaa;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 30px;
+  vertical-align: middle;
+  width: 200px;
+}
+
+.image {
+  margin: 50px 0 0;
+  object-fit: cover;
+  width: 50%;
+}
+
+.finish {
+  font-size: 100px;
+  margin: 200px 0 0;
+}

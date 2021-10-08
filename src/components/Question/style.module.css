@@ -1,0 +1,41 @@
+.image {
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #777;
+  width: 1000px;
+}
+
+.frameWithPadding {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  margin: 100px 0 0;
+}
+
+.frameWithNoPadding {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  justify-content: center;
+}
+
+.frameWithPaddingBottom {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  margin: 0 0 100px;
+}
+
+.scrollBarLeft {
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+.scrollBarRight {
+  position: fixed;
+  right: 0;
+  top: 0;
+}

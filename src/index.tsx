@@ -1,13 +1,17 @@
-import Pages from "Pages";
-import React from "react";
+import Containers from "containers";
+import React, { StrictMode } from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
+import "./styles/global.css";
+import "ress";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Pages />
-  </React.StrictMode>,
+  <StrictMode>
+    <BrowserRouter>
+      <Containers />
+    </BrowserRouter>
+  </StrictMode>,
   document.getElementById("root")
 );
 

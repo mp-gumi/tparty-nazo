@@ -1,0 +1,88 @@
+.bar {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 760px;
+  width: 80px;
+  z-index: 1;
+}
+
+.gridFrame {
+  position: relative;
+}
+
+.yellow {
+  background: #ffff80;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 50%;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+.green {
+  background: #80ff80;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 50%;
+  cursor: pointer;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+
+.orange {
+  background: #ffd880;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 50%;
+  cursor: pointer;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+
+.red {
+  background: #ff8080;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 50%;
+  cursor: pointer;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+
+.blue {
+  background: #80ffff;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 50%;
+  cursor: pointer;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+
+.black {
+  background: #606060;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 50%;
+  cursor: pointer;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
