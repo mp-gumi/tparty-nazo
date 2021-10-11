@@ -20,7 +20,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
     "ress": "^4.0.0",
-    "swiper": "^6.0.2",
+    "swiper": "^6.8.4",
     "typescript": "^4.4.3",
     "web-vitals": "^1.1.2"
   },
