@@ -12,17 +12,20 @@
 }
 
 .input {
+  border: 1px solid #000;
   border-radius: 18px;
   font-size: 28px;
   text-align: center;
-  height: 30px;
+  height: 36px;
   width: 400px;
 }
 
 .button {
+  border: 1px solid #000;
   border-radius: 18px;
   font-size: 20px;
   height: 36px;
+  padding: 0 10px;
   margin: 0 0 0 20px;
 }
 

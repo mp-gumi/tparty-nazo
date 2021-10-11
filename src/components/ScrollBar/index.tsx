@@ -17,7 +17,6 @@ function ScrollBar({ questions }: ScrollBarProps) {
       questions.map(({ color, name }) => (
         <Link
           activeClass="active"
-          className={styles.gridFrame}
           to={name}
           smooth={true}
           duration={500}

@@ -23,9 +23,11 @@
 
 .button {
   box-shadow: 3px 3px 10px #aaa;
+  color: #000;
   cursor: pointer;
   font-size: 24px;
   margin: 30px;
+  text-decoration: none;
   vertical-align: middle;
   width: 200px;
 }

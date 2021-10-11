@@ -19,7 +19,7 @@ function Clear(): JSX.Element {
   }, [history, pages, pathname]);
 
   const handleClickPrev = useCallback(() => {
-    history.push(`${pathname}pages=${pages - 1}`);
+    history.push(`${pathname}?pages=${pages - 1}`);
   }, [history, pages, pathname]);
 
   useEffect(() => {

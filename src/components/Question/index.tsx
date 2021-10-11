@@ -21,13 +21,14 @@ function Question({ onSubmit, questions }: QuestionProps): JSX.Element {
     () =>
       questions.map(({ image, name }, index) => (
         <Element key={image} name={name}>
-          <div
-            className={styles.frameWithNoPadding}
-            style={{ height: windowHeight }}
-          >
+          <div className={styles.wrapper} style={{ height: windowHeight }}>
             {`～Q${index + 1}～`}
             <img alt={index.toString()} className={styles.image} src={image} />
-            <Form onSubmit={onSubmit} />
+            {name !== "sixth" ? (
+              <Form onSubmit={onSubmit} />
+            ) : (
+              <div className={styles.dummy} />
+            )}
           </div>
         </Element>
       )),

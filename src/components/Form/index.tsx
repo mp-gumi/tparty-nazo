@@ -21,7 +21,7 @@ function Form({ onSubmit }: FormProps): JSX.Element {
         {...register("answer", { required: true })}
       />
       <button className={styles.button} type="submit">
-        チェック！
+        チェック
       </button>
     </form>
   );

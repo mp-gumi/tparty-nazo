@@ -11,7 +11,7 @@ function PopUp({ onClick, answerImage }: PopUpProps) {
   return (
     <div className={styles.background}>
       <div className={styles.content}>
-        <img alt="正解" className={styles.confirm} src={correct} />
+        <img alt="正解" className={styles.correct} src={correct} />
         <img alt="answer" className={styles.answer} src={answerImage} />
         <button className={styles.next} onClick={onClick}>
           {"次の問題へ >>"}
