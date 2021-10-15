@@ -2,7 +2,6 @@
   align-items: center;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 760px;
   justify-items: center;
   width: 80px;
   z-index: 1;

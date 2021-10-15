@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import styles from "./style.module.css";
 import { Link } from "react-scroll";
+import useWindowSize from "hooks/useWindowSize";
 
 type Question = {
   color: string;
@@ -12,6 +13,8 @@ export type ScrollBarProps = {
 };
 
 function ScrollBar({ questions }: ScrollBarProps) {
+  const { windowHeight } = useWindowSize();
+
   const items = useMemo(
     () =>
       questions.map(({ color, name }) => (
@@ -28,7 +31,11 @@ function ScrollBar({ questions }: ScrollBarProps) {
     [questions]
   );
 
-  return <div className={styles.bar}>{items}</div>;
+  return (
+    <div className={styles.bar} style={{ height: windowHeight }}>
+      {items}
+    </div>
+  );
 }
 
 export default ScrollBar;

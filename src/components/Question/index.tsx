@@ -23,9 +23,17 @@ function Question({ onSubmit, questions }: QuestionProps): JSX.Element {
         <Element key={image} name={name}>
           <div className={styles.wrapper} style={{ height: windowHeight }}>
             {`～Q${index + 1}～`}
-            <img alt={index.toString()} className={styles.image} src={image} />
+            <div>
+              <img
+                alt={index.toString()}
+                className={styles.image}
+                src={image}
+              />
+            </div>
             {name !== "sixth" ? (
-              <Form onSubmit={onSubmit} />
+              <div className={styles.formWrapper}>
+                <Form onSubmit={onSubmit} />
+              </div>
             ) : (
               <div className={styles.dummy} />
             )}

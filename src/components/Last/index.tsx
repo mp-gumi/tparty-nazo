@@ -13,12 +13,14 @@ function Last({ onSubmit, answer }: LastProps): JSX.Element {
 
   return (
     <div>
-      <div style={{ height: windowHeight }}>
-        <div className={styles.frame}>
-          {"～LAST～"}
+      <div className={styles.wrapper} style={{ height: windowHeight }}>
+        {"～LAST～"}
+        <div>
           <img alt="Q7" className={styles.image} src={tparty7} />
         </div>
-        <Form onSubmit={onSubmit} />
+        <div className={styles.formWrapper}>
+          <Form onSubmit={onSubmit} />
+        </div>
       </div>
       <QuestionSwiper />
     </div>

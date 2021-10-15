@@ -20,19 +20,22 @@ function ClearComponent({
       return (
         <div>
           <h2>【謝辞】</h2>
-          <p>プレイいただきありがとうございました！</p>
+          <p>内容はこれで以上です。隠し要素とかはありません。</p>
+          <p>
+            (ルール説明で出てきた『ハムスター』も、もちろん何の伏線でもありません)
+          </p>
           <p>プレイしてくれた皆さまに、この場を借りて感謝を申し上げます。</p>
-          <p>スペシャルサンクス：マサさん</p>
+          <p>スペシャルサンクス：梅昆布のみんな、マサさん</p>
         </div>
       );
     }
 
     if (pages === 3) {
-      return <div className={styles.finish}>～Fin～</div>;
+      return <div className={styles.finish}>Fin</div>;
     }
 
     return (
-      <div>
+      <div className={styles.imageWrapper}>
         <img alt="クリア" className={styles.image} src={ending} />
       </div>
     );

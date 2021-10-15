@@ -11,11 +11,17 @@ function PopUp({ onClick, answerImage }: PopUpProps) {
   return (
     <div className={styles.background}>
       <div className={styles.content}>
-        <img alt="正解" className={styles.correct} src={correct} />
-        <img alt="answer" className={styles.answer} src={answerImage} />
-        <button className={styles.next} onClick={onClick}>
-          {"次の問題へ >>"}
-        </button>
+        <div>
+          <img alt="正解" className={styles.correct} src={correct} />
+        </div>
+        <div className={styles.imageWrapper}>
+          <img alt="answer" className={styles.answer} src={answerImage} />
+        </div>
+        <div>
+          <button className={styles.next} onClick={onClick}>
+            {"次の問題へ >>"}
+          </button>
+        </div>
       </div>
     </div>
   );
